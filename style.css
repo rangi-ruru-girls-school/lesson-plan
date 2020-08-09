@@ -1,0 +1,74 @@
+* {
+	font-family: "Calibri", san-serif;
+}
+
+header {
+  display: grid;
+  grid: ".   heading heading heading heading ." auto
+        ".   class   topic   topic   topic   ." auto
+        ".   date    time    period  lesson  ." auto
+        /15% 1fr     1fr     1fr     1fr     15%;
+  margin-bottom: 2em;
+}
+
+#details {
+  display: grid;
+  grid: ".   a-o   prep   ." 3em
+        ".   a-o   k-cs   ." 3em
+        ".   l-o   strats ." 3em
+        ".   l-o   assess ." 3em
+        ".   focus needs  ." 3em
+        /15% 5fr   4fr    15%;
+  margin-bottom: 2em;
+}
+
+/* #lbl-#lbl-#lbl-#lbl- HEADER #lbl-#lbl-#lbl-#lbl- */
+#lbl-heading { grid-area: heading; }
+#lbl-class { grid-area: class; }
+#lbl-topic { grid-area: topic; }
+#lbl-date { grid-area: date; }
+#lbl-time { grid-area: time; }
+#lbl-period { grid-area: period; }
+#lbl-lesson { grid-area: lesson; }
+
+/* #lbl-#lbl-#lbl-#lbl- DETAILS #lbl-#lbl-#lbl-#lbl- */
+#lbl-a-o { grid-area: a-o; }
+#lbl-l-o { grid-area: l-o; }
+#lbl-focus { grid-area: focus; }
+#lbl-prep { grid-area: prep; }
+#lbl-k-cs { grid-area: k-cs; }
+#lbl-strats { grid-area: strats; }
+#lbl-assess { grid-area: assess; }
+#lbl-needs { grid-area: needs; }
+
+
+h1 {
+  border: 1px solid black;
+  background-color: lightgrey;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin: 0 0;
+}
+
+p#comment {
+  font-weight: normal;
+  font-style: normal;
+  display: inline;
+  font-size: 0.8em;
+}
+
+p {
+  font-style: italic;
+}
+
+label {
+  border: 1px solid black;
+  padding: 0.2em 0.2em;
+  font-weight: bold;
+}
+
+input {
+  border: none;
+}
