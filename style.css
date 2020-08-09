@@ -22,24 +22,24 @@ header {
   margin-bottom: 2em;
 }
 
-/* #lbl-#lbl-#lbl-#lbl- HEADER #lbl-#lbl-#lbl-#lbl- */
-#lbl-heading { grid-area: heading; }
-#lbl-class { grid-area: class; }
-#lbl-topic { grid-area: topic; }
-#lbl-date { grid-area: date; }
-#lbl-time { grid-area: time; }
-#lbl-period { grid-area: period; }
-#lbl-lesson { grid-area: lesson; }
+/* #### HEADER #### */
+#heading { grid-area: heading; }
+#class { grid-area: class; }
+#topic { grid-area: topic; }
+#date { grid-area: date; }
+#time { grid-area: time; }
+#period { grid-area: period; }
+#lesson { grid-area: lesson; }
 
-/* #lbl-#lbl-#lbl-#lbl- DETAILS #lbl-#lbl-#lbl-#lbl- */
-#lbl-a-o { grid-area: a-o; }
-#lbl-l-o { grid-area: l-o; }
-#lbl-focus { grid-area: focus; }
-#lbl-prep { grid-area: prep; }
-#lbl-k-cs { grid-area: k-cs; }
-#lbl-strats { grid-area: strats; }
-#lbl-assess { grid-area: assess; }
-#lbl-needs { grid-area: needs; }
+/* #### DETAILS #### */
+#a-o { grid-area: a-o; }
+#l-o { grid-area: l-o; }
+#focus { grid-area: focus; }
+#prep { grid-area: prep; }
+#k-cs { grid-area: k-cs; }
+#strats { grid-area: strats; }
+#assess { grid-area: assess; }
+#needs { grid-area: needs; }
 
 
 h1 {
@@ -63,12 +63,14 @@ p {
   font-style: italic;
 }
 
-label {
+div {
   border: 1px solid black;
   padding: 0.2em 0.2em;
   font-weight: bold;
 }
 
-input {
+#controls {
+  margin: 0 auto;
+  width: fit-content;
   border: none;
 }
